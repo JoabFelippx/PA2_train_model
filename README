@@ -1,0 +1,10 @@
+Codigo para treinar o modelo usando 'Transfer Learning'
+
+Antes de iniciar o code rode:
+
+    pip install -r requirements.txt
+
+Isso vai instalar as libs necessarias para rodar o codigo
+
+
+* NÃO ESQUECER DE COLOCAR O CAMINHO DO DATASET NA VAR dataset_path
