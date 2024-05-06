@@ -4,7 +4,6 @@ import tensorflow as tf
 
 from tensorflow.keras.applications import VGG16
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.optimizers import RMSprop
 
 from matplotlib import pyplot as plt
 
@@ -89,7 +88,7 @@ def create_final_model(pre_trained_model_vgg16, last_output):
     
     model = tf.keras.Model(pre_trained_model_vgg16.input, x)
     
-    model.compile(optimizer=RMSprop(learning_rate=0.0001), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+    model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
     return model
 
