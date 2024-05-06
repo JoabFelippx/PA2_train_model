@@ -1,3 +1,4 @@
 tensorflow
 matplotlib
 scipy
+opencv-python
