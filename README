@@ -1,10 +1,9 @@
-Codigo para treinar o modelo usando 'Transfer Learning'
+# Transfer Learning com VGG16
 
-Antes de iniciar o code rode:
+## Instalação:
 
-    pip install -r requirements.txt
-
-Isso vai instalar as libs necessarias para rodar o codigo
-
-
-* NÃO ESQUECER DE COLOCAR O CAMINHO DO DATASET NA VAR dataset_path
+    Instale as dependências listadas no arquivo requirements.txt
+        ```
+        pip install -r requirements.txt
+        ```
+    Defina o caminho do conjunto de dados na variável dataset_path no arquivo train.py.
